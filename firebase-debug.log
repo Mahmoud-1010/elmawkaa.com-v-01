@@ -1,0 +1,35 @@
+[debug] [2022-10-21T09:22:19.214Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T09:22:19.216Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mahmoud El Behidy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-21T09:22:19.217Z] CLI Version:   11.15.0
+[debug] [2022-10-21T09:22:19.217Z] Platform:      win32
+[debug] [2022-10-21T09:22:19.217Z] Node Version:  v16.17.0
+[debug] [2022-10-21T09:22:19.218Z] Time:          Fri Oct 21 2022 11:22:19 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-10-21T09:22:19.218Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T09:22:19.225Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T09:22:19.225Z] > authorizing via signed-in user (mahmoud.behidy@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\learn programming\programming language\web course\Egypt fwd - Professional Track\elmawkaa.com\elmawkaa.com v-01
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
