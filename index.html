@@ -13,31 +13,36 @@
 </head>
 <body>
     <!-- start navbar -->
-    <div id="navbar">
-        <nav> 
-            <div class="nav-r-part">
-                <a href="#" class="navbar-brand"><img src="https://elmawkaa.com/img/logo.png"></a>
-                <ul class="nav-items">
-                    <li><a href="#" class="nav-item">مواد البناء</a></li>
-                    <li><a href="#" class="nav-item">أحدث الطلبيات</a></li>
-                    <li><a href="#" class="nav-item">كيف يعمل ؟</a></li>
-                    <li><a href="#" class="nav-item">سجل كمورد</a></li>
-                    <li><a href="#" class="nav-item">المدونه</a></li>
-                    <li><a href="#" class="nav-item">الباقات</a></li>
-                    <li><a href="#" class="nav-item">اتصل بنا</a></li>
-                </ul>
+    <nav>
+        <div class="navbar">
+            <div class="nav-part">
+                <a href="#"><img class="nav-brand" src="https://elmawkaa.com/img/logo.png"></a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
+                <a href="#">مواد البناء</a>
             </div>
-            <div class="nav-l-part">
-                <ul class="nav-items">
-                    <li><a href="#" class="login"><i class="fas fa-user"></i><span>تسجيل الدخول</span><span class="new-word"> جديد</span></a></li>
-                    <li><a href="#" class="nav-item"><img src="/images/egypt-1.png"><i class="fa fa-caret-down"></i></a></li>
-                </ul>
+            <div class="nav-part">
+                <a href="#"><i class="fas fa-user"></i>نسجيل دخول <span class="new-word">جديد</span></a>
+                <div class="country" onclick="drop_flag()">
+                    <div id="egypt-country" >
+                        <a href="#"><img id="our-flag" class="country-flag" src="/images/egypt.png"><i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                    </div>
+                    <diV class="dropdown-content" id="my-dropdwon" onclick="change_flag()">
+                        <a href="#">
+                            <img id="drop-flag" class="country-flag" src="/images/suadi.png"><span id="drop-text">المملكه العربيه السعودية</span>
+                        </a>
+                    </diV>
+                </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- end navbar -->
     <!-- start header sectin  -->
-    <div class="header">
+    <div class="header" id="header-bg">
         <div class="header-content">
             <div>
                 <div class="section-main-title">

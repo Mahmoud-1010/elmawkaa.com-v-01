@@ -65,7 +65,80 @@ h1, h2, h3, h4, h5, h6 {
 
 /* start navbar  */
 
-#navbar {
+nav {
+    background-color: black;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+.navbar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.nav-part {
+    display: flex;
+    align-items: center;
+}
+.nav-part a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-brand {
+    width: 150px;
+    height: 51px;
+}
+
+.country-flag {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.country {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    left: 5px;
+    bottom: -200%;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    overflow: auto;
+    z-index: 999;
+    margin: auto;
+    min-height: 40px;
+    border-radius: 5px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.show {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+/* #navbar {
     width: 100%;
     max-width: 100%;
     position: fixed;
@@ -84,11 +157,12 @@ nav {
 nav .nav-r-part, nav .nav-r-part .nav-items, nav .nav-l-part .nav-items{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-}
+    /* justify-content: space-between; 
+}*/
 
 
-nav .navbar-brand img {
+
+/* nav .navbar-brand img {
     width: 150px;
     margin-left: 10px;
 }
@@ -129,13 +203,16 @@ nav ul li .buton {
     margin: 0.15rem;
 }
 
+.flags .flag-item {
+    position: absolute;
+}  */
 /* end navbar  */
 /* start header section */
 .header {
     position: relative;
     width: 100%;
     height: 75vh;
-    top: 60px;
+    top: 55px;
     background-image: url(https://elmawkaa.com/img/bg/home-bg.jpg);
     background-size: cover;
     margin-bottom: 120px;
